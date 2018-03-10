@@ -1,0 +1,87 @@
+body {
+    background-color: #5D737E;
+}
+
+ul { 
+  position: relative;
+  height: 200px;
+  width: 710px;
+  padding: 0;
+  margin: 0;
+}
+
+ul li{
+  position: relative; 
+  float: left; 
+  margin: 0; 
+  padding: 0;
+}
+
+.black + .white {
+  margin-left: -12px;
+}
+
+#piano {
+  margin: 40px auto;
+  cursor: pointer;
+  list-style-type: none;
+}
+
+#piano li:hover {
+    background-color: lightgray;
+}
+
+.white {
+  background-color: white;
+  width: 30px;
+  height: 200px;
+  z-index: 3;
+  position:relative;
+  border-left: 1px solid #000000;
+}
+
+.black {
+  background-color: black;
+  margin: 0 0 0 -10px;
+  width: 20px;
+  height: 140px;
+  z-index: 5;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#game{
+    text-align: center;
+}
+
+
+#game div {
+    margin 10px;
+    background-color: white;
+   width: 200px;
+    text-align: center;
+    padding: 20px;
+    transition: display 5s;
+user-select: none;
+}
+
+
+#yes {
+    display: none;
+}
+
+#yes:hover {
+    cursor: pointer;
+}
+
+#start:hover {
+    cursor: pointer;
+}
+
+#answer {
+    display: none;
+}
+
+#start {
+    display: inline-block;
+}
